@@ -1,0 +1,248 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2837307275,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to launch chrome and hit the FB url",
+            "match": {
+              "location": "Loginpage.user_has_to_launch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4638498002,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To verify login functionality with valid username and invalid password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-verify-login-functionality-with-valid-username-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 955717113,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 484911359,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user has to enter the  username and password",
+            "match": {
+              "location": "Loginpage.user_has_to_enter_the_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Alluarjun",
+                  "12345456"
+                ]
+              },
+              {
+                "cells": [
+                  "Mahesh",
+                  "6543211"
+                ]
+              },
+              {
+                "cells": [
+                  "Chiru",
+                  "09876567"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162940998,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the login button",
+            "match": {
+              "location": "Loginpage.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187128,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user unable to enter the home page",
+            "match": {
+              "location": "Loginpage.user_unable_to_enter_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End_To_End_Testing"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3041363114,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user has to launch chrome and hit the FB url",
+            "match": {
+              "location": "Loginpage.user_has_to_launch_chrome_and_hit_the_FB_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2260502053,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "To verify the Forgot Password",
+        "description": "",
+        "id": "to-validate-the-login-functionality;to-verify-the-forgot-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1072244179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooksclass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2043874981,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user has to click the forgotten password link",
+            "match": {
+              "location": "Loginpage.user_has_to_click_the_forgotten_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 606703865,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user has to enter credentials",
+            "match": {
+              "location": "Loginpage.user_has_to_enter_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130384396,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user has to click serach button",
+            "match": {
+              "location": "Loginpage.user_has_to_click_serach_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3007127694,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user has to be redirected the OTP page",
+            "match": {
+              "location": "Loginpage.user_has_to_be_redirected_the_OTP_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@End_To_End_Testing"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality",
+    "description": "",
+    "id": "to-validate-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/open.feature",
+    "tags": [
+      {
+        "name": "@End_To_End_Testing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
